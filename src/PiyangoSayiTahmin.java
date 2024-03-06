@@ -26,5 +26,16 @@ public class PiyangoSayiTahmin {
             System.out.println("Tebrikler Piyango Sayının Rakamlarının Yer Değiştirilmiş Halini Bildin Hesabına 5000 Tl Geçecek");
         }
         else System.out.println("Sayıyı Bilemedin");
+
+
+        System.out.println("Lütfen Sayı girin");
+        int sayi= giris.nextInt();
+
+        int a=1;
+        int faktoriyel=1;
+        for (a=1;a<=sayi;a++){
+            faktoriyel*=a;
+        }
+        System.out.println(faktoriyel);
     }
 }
